@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'exifr'
 require 'pry'
 require 'photo_geoloader'
 require 'support/test_model.rb'

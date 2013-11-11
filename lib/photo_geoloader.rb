@@ -1,3 +1,5 @@
+require 'exifr'
+
 class PhotoGeoloader
   
   attr_accessor :photo_path, :data, :attributes, :position
