@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'photo_geoloader'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2013-11-11'
   s.summary     = "Load GPS coordinates from uploaded photos into models."
   s.description = "Load GPS coordinates from uploaded photos exif meta information into usually Rails models."
