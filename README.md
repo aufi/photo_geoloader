@@ -11,14 +11,14 @@ Created and tested for photos from iPhone and placing it to model.
 Usage
 -----
 Simplest - load position data and handle on your own
-```
+```ruby
 photo = PhotoGeoloader.new('path/to/photo.jpg')
 p photo.position[:latitude]
 p photo.position[:longitude]
 p photo.position[:altitude]
 ```
 Rails model example
-```
+```ruby
 # attributes: photo (string, carrierwave uploader), latitude (float), longitude (float), altitude (float)
 class Photo < ActiveRecord::Base
   attr_accessible :photo
